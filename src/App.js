@@ -8,11 +8,12 @@ import * as THREE from 'three'
 // import {useControls} from 'leva'// problematic
 // import { useTweaks } from 'tweakpane'
 
+
 function GlassPortal() {
   const { roughness, transmission, rotation, showOriginal, color } =
     // useControls ()
     {
-      roughness: { value: 0.05, min: 0, max: 1 },
+      roughness: { value: 0.06, min: 0, max: 1 },
       transmission: { value: 1, min: 0, max: 1 },
       rotation: { value: 1.4 * Math.PI, min: 0, max: 2 * Math.PI },
       showOriginal: { value: false },
